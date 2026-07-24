@@ -1,4 +1,4 @@
-package quradar.model;
+package model;
 import java.util.Objects;
 
 

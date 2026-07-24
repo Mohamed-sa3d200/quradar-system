@@ -1,4 +1,4 @@
-package quradar.model;
+package model;
 
 /**
  * Enumeration representing vehicle classifications.
