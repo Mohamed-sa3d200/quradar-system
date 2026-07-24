@@ -8,6 +8,12 @@ import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.Optional;
 
+
+/**
+ * Application entry point demonstrating QuRadar telemetry processing and fine generation.
+ */
+
+
 public class Main {
     public static void main(String[] args) {
         QuRadar radar = new QuRadar();

@@ -4,6 +4,11 @@ import model.Observation;
 import model.Violation;
 import java.util.Optional;
 
+
+/**
+ * Rule implementation validating driver seatbelt status compliance.
+ */
+
 public final class SeatbeltRule implements RadarRule {
     private static final String RULE_NAME = "Seatbelt Fastened Rule";
     private final double fee;

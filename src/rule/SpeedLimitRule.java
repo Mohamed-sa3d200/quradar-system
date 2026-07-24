@@ -7,6 +7,11 @@ import model.Violation;
 import java.util.Map;
 import java.util.Optional;
 
+
+/**
+ * Rule implementation enforcing vehicle type-specific speed limits.
+ */
+
 public final class SpeedLimitRule implements RadarRule {
     private static final String RULE_NAME = "Speed Limit Rule";
     private final Map<VehicleType, Double> speedLimits;

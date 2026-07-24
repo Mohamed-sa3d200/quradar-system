@@ -5,6 +5,16 @@ import rule.RadarRule;
 
 import java.util.*;
 
+
+/**
+ * Core radar engine managing rule execution, fine generation, and violation metrics.
+ * 
+ * System Architecture:
+ * Integrates edge-deployed YOLOv8-Quantum (Q-ViT) hybrid model for multi-object tracking,
+ * license plate recognition (ALPR), and CNN-based posture estimation.
+ */
+
+
 public class QuRadar {
 
     private final List<RadarRule> rules = new ArrayList<>();

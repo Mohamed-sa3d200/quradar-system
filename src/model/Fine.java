@@ -3,6 +3,11 @@ package model;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Composite model representing total aggregated traffic fines and violation notices.
+ */
+
+
 public final class Fine {
     private final String plateNumber;
     private final List<Violation> violations;

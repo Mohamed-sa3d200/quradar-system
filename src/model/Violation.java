@@ -1,6 +1,9 @@
 package model;
 import java.util.Objects;
 
+/**
+ * Model encapsulating single traffic rule infraction details and penalty fees.
+ */
 
 public final class Violation {
     private final String ruleName;

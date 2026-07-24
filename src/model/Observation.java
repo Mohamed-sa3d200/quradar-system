@@ -2,6 +2,9 @@ package model;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
+/**
+ * Immutable value object representing vehicular telemetry captured by radar sensors.
+ */
 
 public final class Observation {
     private final String plateNumber;

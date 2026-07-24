@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Enumeration representing vehicle classifications.
+ * Enum defining supported vehicle classifications for traffic evaluation.
  */
 
 public enum VehicleType {
